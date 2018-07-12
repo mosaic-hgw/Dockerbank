@@ -1,10 +1,10 @@
-# gICS v.2.8.5#
+# gICS v.2.8.5 #
 The Consent Management solution gICS (generic Informed Consent Administration Service) supports the management of digital informed consent documents. It facilitates checking  for various policies and modules of a consent in real time. 
 
 
 Tested with Docker 1.13.1 and Docker-Compose 1.8.0
 
-# Run your Image#
+# Run your Image #
 change to folder with download files			
 
 if applicapble: stop runnging mysql services on port 3306 
