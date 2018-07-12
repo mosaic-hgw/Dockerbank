@@ -8,10 +8,10 @@ Tested with Docker 1.13.1 and Docker-Compose 1.8.0
 change to folder with download files			
 
 if applicable: stop runnging mysql services on port 3306 
-service mysql stop
+```service mysql stop```
 
 run docker-compose to pull and configure gICS
-sudo docker-compose up
+```sudo docker-compose up```
 
 open browser and try out the gICS from http://YOURIPADDRESS:8080/gics-web/html/index.xhtml
 
