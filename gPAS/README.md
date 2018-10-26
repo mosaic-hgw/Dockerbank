@@ -1,4 +1,7 @@
-# generic Pseudonym Administration Service (gPAS) v.1.8.0 #
+
+![context](https://user-images.githubusercontent.com/22166209/47564456-5fdaeb00-d925-11e8-88f7-26ba42cb449f.png)
+
+Current Version: 1.8.0 (Oct 2018)
 
 # About the gPAS #
 The use of pseudonyms is a privacy-enhancing technique supporting privacy-by-design and ensuring non-attribution. Pseudonymisation allows storing directly person identifying data separately and securely from medical data and supports the data controller to meet the GDPR’s data security requirements (Art. 32 lit. 1 EU GDPR).
@@ -6,6 +9,8 @@ The use of pseudonyms is a privacy-enhancing technique supporting privacy-by-des
 To facilitate the generation and administration of appropriate pseudonyms the Institute for Community Medicine of the University Medicine Greifswald (UMG) developed the web-service-based gPAS.
 
 The use of pseudonymization domains, the specification of individual alphabets and generator algorithms allow for the free generation of different pseudonyms per data source, application context or study site.
+
+![context](https://github.com/mosaic-hgw/Dockerbank/blob/master/gPAS/screenshots/psn-overview.png)
 
 # Additional Information #
 License: AGPLv3, https://www.gnu.org/licenses/agpl-3.0.en.html
@@ -39,3 +44,17 @@ open browser and try out the gPAS from http://YOURIPADDRESS:8080/gpas-web/html/i
 Demo: use mysql to import demo domains and pseudonyms from /demo_import
 
 finish and close gPAS application server with CTRL+C
+
+# Additional Screenshots #
+
+Domain Configuration
+
+![context](https://github.com/mosaic-hgw/Dockerbank/blob/master/gPAS/screenshots/add_domain.png)
+
+List processing
+
+![context](https://github.com/mosaic-hgw/Dockerbank/blob/master/gPAS/screenshots/list-processing.png)
+
+Show Pseudonym trees
+
+![context](https://github.com/mosaic-hgw/Dockerbank/blob/master/gPAS/screenshots/psn-tree.png)
