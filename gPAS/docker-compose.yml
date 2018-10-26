@@ -19,7 +19,7 @@ services:
       
 ### WildFly #############################################
   wildfly:
-    image: mosaicgreifswald/wildfly
+    image: mosaicgreifswald/wildfly:13.0.0.Final-20180830
     container_name: gpas-1.8.0-wildfly
     links:
       - "mysql:mysqldb"
