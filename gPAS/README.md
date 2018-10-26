@@ -1,5 +1,5 @@
 
-![context](https://user-images.githubusercontent.com/22166209/47564332-efcc6500-d924-11e8-9a12-4228dd2cc812.png)
+![context](https://user-images.githubusercontent.com/22166209/47564456-5fdaeb00-d925-11e8-88f7-26ba42cb449f.png)
 
 Current Version: 1.8.0 (Oct 2018)
 
