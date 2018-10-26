@@ -3,7 +3,7 @@ data-source add \
 	--name=CM12SqlDS \
 	--driver-name=mysql \
 	--jndi-name=java:jboss/datasources/gicsDS \
-	--connection-url=jdbc:mysql://mysqldb:3306/gics?useSSL=false \
+	--connection-url=jdbc:mysql://mysqldb:3306/gics?useSSL=false&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=Europe/Berlin \
 	--user-name=gics_user \
 	--password=gics_2018 \
 	--use-ccm=true \

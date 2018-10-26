@@ -1,4 +1,9 @@
-# generic Informed Consent Service (gICS) v.2.8.6 #
+![context](https://user-images.githubusercontent.com/22166209/47565115-a5001c80-d927-11e8-8591-9e7937a26faa.PNG)
+
+Current Version: 2.8.6
+
+# About #
+
 The Consent Management solution gICS (generic Informed Consent Administration Service) supports the management of digital informed consent documents. It facilitates checking  for various policies and modules of a consent in real time. 
 
 ![context](https://user-images.githubusercontent.com/22166209/42631209-c1a9e236-85d9-11e8-94e8-74b5022a2f43.PNG)
@@ -23,3 +28,10 @@ finish and close gICS application server with CTRL+C
 ![detail](https://user-images.githubusercontent.com/22166209/42631227-d0d2c688-85d9-11e8-9612-4f7994d4e49c.PNG)
 
 ![tree](https://user-images.githubusercontent.com/22166209/42631235-da0df7b8-85d9-11e8-9069-a3d4ad62cd53.PNG)
+
+Please read our publications for additional details:
+
+Bialke M*, Bahls T*, Geidel L, Rau H, Blumentritt A, Pasewald S , et al.
+MAGIC: once upon a time in consent management-a FHIR tale.
+Journal of Translational Medicine. (open access) 2018; 16(1):256.
+https://rdcu.be/6LJd 
