@@ -29,8 +29,7 @@ finish and close gICS application server with CTRL+C
 
 ![tree](https://user-images.githubusercontent.com/22166209/42631235-da0df7b8-85d9-11e8-9069-a3d4ad62cd53.PNG)
 
-Please read our publications for additional details:
-
+# Read our publications for additional details #
 Bialke M*, Bahls T*, Geidel L, Rau H, Blumentritt A, Pasewald S , et al.
 MAGIC: once upon a time in consent management-a FHIR tale.
 Journal of Translational Medicine. (open access) 2018; 16(1):256.
