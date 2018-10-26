@@ -1,4 +1,4 @@
-# add datasource for gpas
+# add datasource for gics
 data-source add \
 	--name=CM12SqlDS \
 	--driver-name=mysql \
@@ -18,4 +18,6 @@ data-source add \
 /subsystem=logging/console-handler=CONSOLE:write-attribute(name=level,value=TRACE)
 /subsystem=logging/logger=org.emau.icmvc.ganimed.ttp.cm2:add(use-parent-handlers=false,handlers=["CONSOLE"])
 /subsystem=logging/logger=org.emau.icmvc.ganimed.ttp.cm2:write-attribute(name=level,value=TRACE)
+/subsystem=logging/logger=org.emau.icmvc.ganimed.ttp.gstats:add(use-parent-handlers=false,handlers=["CONSOLE"])
+/subsystem=logging/logger=org.emau.icmvc.ganimed.ttp.gstats:write-attribute(name=level,value=TRACE)
 
