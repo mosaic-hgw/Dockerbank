@@ -34,10 +34,15 @@ https://dx.doi.org/10.1186/s12967-015-0545-6
 change to folder with download files			
 
 if applicable: stop runnging mysql services on port 3306 
+
 ```service mysql stop```
+
 check/set necessary writing privileges for the ./deployments directory
+
 ```chmod 777 -R ./deployments```
+
 run docker-compose to pull and configure gPAS
+
 ```sudo docker-compose up```
 
 open browser and try out the gPAS from http://YOURIPADDRESS:8080/gpas-web/html/index.xhtml
