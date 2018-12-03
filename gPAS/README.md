@@ -45,7 +45,7 @@ run docker-compose to pull and configure gPAS
 
 ```sudo docker-compose up```
 
-open browser and try out the gPAS from http://YOURIPADDRESS:8080/gpas-web/html/index.xhtml
+open browser and try out the gPAS from http://YOURIPADDRESS:8080/gpas-web
 
 Demo: use mysql to import demo domains and pseudonyms from /demo_import
 
