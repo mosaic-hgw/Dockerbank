@@ -35,7 +35,8 @@ change to folder with download files
 
 if applicable: stop runnging mysql services on port 3306 
 ```service mysql stop```
-
+check/set necessary writing privileges for the ./deployments directory
+```chmod 777 -R ./deployments```
 run docker-compose to pull and configure gPAS
 ```sudo docker-compose up```
 
