@@ -22,7 +22,7 @@ check/set necessary writing privileges for the ./deployments directory
 run docker-compose to pull and configure gICS
 ```sudo docker-compose up```
 
-open browser and try out the gICS from http://YOURIPADDRESS:8080/gics-web/html/index.xhtml
+open browser and try out the gICS from http://YOURIPADDRESS:8080/gics-web
 
 Demo: use the webfrontend to import demo domain config and preconfigured consen template from /demo_import
 
