@@ -10,26 +10,44 @@ The Consent Management solution gICS (generic Informed Consent Administration Se
 
 Tested with Docker 1.13.1 and Docker-Compose 1.8.0
 
-# Run your Image #
+# Download and run your Image #
 
 Note: your account needs administrative privileges to use docker
 change to super user (su) or run the following commands with sudo
 
-change to folder with download files, e.g.
+Download files
 
-```sudo cd ./Dockerbank/gICS ```
+```git clone https://github.com/mosaic-hgw/Dockerbank```
 
-grant read/write permissission to contained sub-folders
+grant read/write permissission to contained gICS sub-folders
 
-```sudo chmod -R 777 ./```
+```sudo chmod -R 777 Dockerbank/gICS```
+
+change to gICS folder
+
+```sudo cd Dockerbank/gICS ```
 
 if applicable: stop runnging mysql services on port 3306 
 
 ```sudo service mysql stop```
 
+check docker version (required 1.13.1 or above)
+
+```sudo docker -v```
+
+check docker-compose version (required 1.8.0 or above)
+
+```sudo docker-compose -v```
+
 run docker-compose to pull and configure gICS
 
 ```sudo docker-compose up```
+
+this will start pulling and configuration of mysql and jboss wildfly and automatically deployment of gICS in the current version.
+
+installation process takes up to 7 minutes (depending on your internet connection) and succeeded if the following output is shown
+
+![gics_install_succeeeded](https://user-images.githubusercontent.com/22166209/49724834-8f8e4a00-fc6a-11e8-9cdd-df09ce03445b.PNG)
 
 open browser and try out the gICS from http://YOURIPADDRESS:8080/gics-web
 
