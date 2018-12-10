@@ -11,15 +11,20 @@ The Consent Management solution gICS (generic Informed Consent Administration Se
 Tested with Docker 1.13.1 and Docker-Compose 1.8.0
 
 # Run your Image #
-change to folder with download files			
+
+Note: your account needs administrative privileges to use docker
+change to super user (su) or run the following commands with sudo
+
+change to folder with download files, e.g.
+```sudo cd ./Dockerbank/gICS ```
+
+grant read/write permissission to contained sub-folders
+
+```sudo chmod -R 777 ./```
 
 if applicable: stop runnging mysql services on port 3306 
 
-```service mysql stop```
-
-check/set necessary writing privileges for the ./deployments directory
-
-```chmod 777 -R ./deployments```
+```sudo service mysql stop```
 
 run docker-compose to pull and configure gICS
 
