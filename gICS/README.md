@@ -16,6 +16,7 @@ Note: your account needs administrative privileges to use docker
 change to super user (su) or run the following commands with sudo
 
 change to folder with download files, e.g.
+
 ```sudo cd ./Dockerbank/gICS ```
 
 grant read/write permissission to contained sub-folders
