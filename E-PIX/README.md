@@ -7,7 +7,9 @@ The ID Management solution E-PIX (Enterprise Identifier Cross Referencing) appli
 # Web-based Interface
 All functionalities of the E-PIX are provided for external use via a SOAP-Interface.
 
-[E-PIX Service Interface-Description (JavaDoc)](https://www.ths-greifswald.de/wp-content/uploads/tools/e-pix/doc/2-4-0/org/emau/icmvc/ganimed/epix/service/EPIXManagementService.html "E-PIX Service Interface Description")
+[E-PIX Service Interface-Description (JavaDoc)](https://www.ths-greifswald.de/wp-content/uploads/tools/e-pix/doc/2-4-0/org/emau/icmvc/ganimed/epix/service/EPIXService.html "E-PIX Service Interface Description")
+
+[E-PIX Management Service Interface-Description (JavaDoc)](https://www.ths-greifswald.de/wp-content/uploads/tools/e-pix/doc/2-4-0/org/emau/icmvc/ganimed/epix/service/EPIXManagementService.html "E-PIX Management Service Interface Description")
 
 Use SOAP-UI to create sample requests. The WSDL URL is ``http://<YOUR IPADDRESS>:8080/epix/EPIXServiceBean?wsdl``
 
