@@ -51,6 +51,17 @@ Demo: use mysql to import demo domains and pseudonyms from /demo_import
 
 finish and close gPAS application server with CTRL+C
 
+# Web-based Interface
+All functionalities of the gPAS are provided for external use via a SOAP-Interface. Use SOAP-UI to create sample requests. (Please modify IP Address and Port accordingly).
+
+[gPAS DomainManager Interface-Description (JavaDoc)](https://www.ths-greifswald.de/wp-content/uploads/tools/gpas/doc/1-7-10/org/emau/icmvc/ganimed/ttp/psn/DomainManager.html  "gPAS Domainmanager Service Interface Description")
+
+The WSDL URL is ``http://<YOUR IPADDRESS>:8080/gpas/DomainService?wsdl``
+
+[gPAS PSNManager Service Interface-Description (JavaDoc)](https://www.ths-greifswald.de/wp-content/uploads/tools/gpas/doc/1-7-10/org/emau/icmvc/ganimed/ttp/psn/PSNManager.html "gPAS PSNManager Service Interface Description")
+
+ The WSDL URL is ``http://<YOUR IPADDRESS>:8080/gpas/gpasService?wsdl``
+
 # Additional Screenshots #
 
 Domain Configuration
