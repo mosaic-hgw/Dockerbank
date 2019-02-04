@@ -60,7 +60,7 @@ finish and close gICS application server with CTRL+C
 ![tree](https://user-images.githubusercontent.com/22166209/42631235-da0df7b8-85d9-11e8-9069-a3d4ad62cd53.PNG)
 
 # Web-based SOAP Interface
-All functionalities of the gICS are provided for external use via a SOAP-Interface. Use SOAP-UI to create sample requests. The WSDL URL is ``http://<YOUR IPADDRESS:8080/gics/gicsService?wsdl``
+All functionalities of the gICS are provided for external use via a SOAP-Interface. Use SOAP-UI to create sample requests. The WSDL URL is ``http://<YOUR IPADDRESS>:8080/gics/gicsService?wsdl``
 
 # Read our publications for additional details #
 Bialke M*, Bahls T*, Geidel L, Rau H, Blumentritt A, Pasewald S , et al.
