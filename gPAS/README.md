@@ -1,7 +1,7 @@
 
 ![context](https://user-images.githubusercontent.com/12081369/49164566-a5794200-f32f-11e8-8d3a-96244ea00832.png)
 
-Current Version: 1.8.0 (Oct 2018)
+Current Version: 1.8.1 (March 2019)
 
 # About the gPAS #
 The use of pseudonyms is a privacy-enhancing technique supporting privacy-by-design and ensuring non-attribution. Pseudonymisation allows storing directly person identifying data separately and securely from medical data and supports the data controller to meet the GDPR’s data security requirements (Art. 32 lit. 1 EU GDPR).
@@ -14,7 +14,7 @@ The use of pseudonymization domains, the specification of individual alphabets a
 
 # Additional Information #
 License: AGPLv3, https://www.gnu.org/licenses/agpl-3.0.en.html
-Copyright: 2014 - 2018 The MOSAIC Project - Institut für Community Medicine
+Copyright: 2014 - 2019 The MOSAIC Project - Institut für Community Medicine
 Contact: mosaic-projekt@uni-greifswald.de
 
 Concept and implementation: L. Geidel
@@ -28,26 +28,45 @@ Please cite our publications:
 https://dx.doi.org/10.3414/ME14-01-0133
 https://dx.doi.org/10.1186/s12967-015-0545-6
 
-# Run your Image #
-(Tested with Docker 1.13.1 and Docker-Compose 1.8.0)
+# Download and run your Image #
 
-change to folder with download files			
+Note: your account needs administrative privileges to use docker
+change to super user (su) or run the following commands with sudo
+
+Download files
+
+```git clone https://github.com/mosaic-hgw/Dockerbank```
+
+grant read/write permissission to contained E-PIX sub-folders
+
+```sudo chmod -R 777 Dockerbank/gPAS```
+
+change to gPAS folder
+
+```sudo cd Dockerbank/gPAS ```
 
 if applicable: stop runnging mysql services on port 3306 
 
-```service mysql stop```
+```sudo service mysql stop```
 
-check/set necessary writing privileges for the ./deployments directory
+check docker version (required 1.13.1 or above)
 
-```chmod 777 -R ./deployments```
+```sudo docker -v```
+
+check docker-compose version (required 1.8.0 or above)
+
+```sudo docker-compose -v```
 
 run docker-compose to pull and configure gPAS
 
 ```sudo docker-compose up```
 
+this will start pulling and configuration of mysql and jboss wildfly and automatically deployment of gPAS in the current version.
+
+installation process takes up to 7 minutes (depending on your internet connection) and succeeded if the following output is shown
+
 open browser and try out the gPAS from http://YOURIPADDRESS:8080/gpas-web
 
-Demo: use mysql to import demo domains and pseudonyms from /demo_import
 
 finish and close gPAS application server with CTRL+C
 
@@ -61,6 +80,10 @@ The WSDL URL is ``http://<YOUR IPADDRESS>:8080/gpas/DomainService?wsdl``
 [gPAS PSNManager Service Interface-Description (JavaDoc)](https://www.ths-greifswald.de/wp-content/uploads/tools/gpas/doc/1-7-10/org/emau/icmvc/ganimed/ttp/psn/PSNManager.html "gPAS PSNManager Service Interface Description")
 
  The WSDL URL is ``http://<YOUR IPADDRESS>:8080/gpas/gpasService?wsdl``
+
+
+# More Information
+Visit ths-greifswald.de/gpas
 
 # Additional Screenshots #
 

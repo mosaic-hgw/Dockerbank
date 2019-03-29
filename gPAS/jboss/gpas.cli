@@ -1,9 +1,9 @@
 # add datasource for gpas
 data-source add \
-	--name=CM12SqlDS \
+	--name=gpasDS \
 	--driver-name=mysql \
 	--jndi-name=java:jboss/datasources/gpasDS \
-	--connection-url=jdbc:mysql://mysqldb:3306/gpas?useSSL=false&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=Europe/Berlin \
+	--connection-url=jdbc:mysql://mysqldb:3306/gpas?useSSL=false&allowPublicKeyRetrieval=true \
 	--user-name=gpas_user \
 	--password=gpas_2018 \
 	--use-ccm=true \
@@ -11,13 +11,11 @@ data-source add \
 	--max-pool-size=20 \
 	--flush-strategy=FailingConnectionOnly \
 	--use-java-context=true \
-	--jta=false \
+	--jta=true \
 	--enabled=true
 
 # add logger for gpas
-/subsystem=logging/console-handler=CONSOLE:write-attribute(name=level,value=TRACE)
+/subsystem=logging/console-handler=CONSOLE:write-attribute(name=level,value=DEBUG)
 /subsystem=logging/logger=org.emau.icmvc.ganimed.ttp.psn:add(use-parent-handlers=false,handlers=["CONSOLE"])
-/subsystem=logging/logger=org.emau.icmvc.ganimed.ttp.psn:write-attribute(name=level,value=TRACE)
-/subsystem=logging/logger=org.emau.icmvc.ganimed.ttp.gstats:add(use-parent-handlers=false,handlers=["CONSOLE"])
-/subsystem=logging/logger=org.emau.icmvc.ganimed.ttp.gstats:write-attribute(name=level,value=TRACE)
+/subsystem=logging/logger=org.emau.icmvc.ganimed.ttp.psn:write-attribute(name=level,value=DEBUG)
 

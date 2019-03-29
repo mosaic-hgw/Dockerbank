@@ -1,0 +1,31 @@
+--------------------------
+Release Notes gICS v.2.9.1
+--------------------------
+
+Date: 2019-03-28
+
+New Features:
+- Unterschrift via Maus/Tablet
+- Demo Nutzungshinweis
+- Schalter für XML/JSON Import Export des ExchangeFormat einbauen
+- CI Pipeline anlegen
+- Properties Nutzung vereinfachen
+
+Changed Features:
+
+- Rückmeldung für Anwender während Import/Export
+- Jahr auf Infoseite aktualisieren
+- Template Import/Export auf eigene Seite auslagern
+
+Bug Fixes:
+
+- Felder für Unterschriften werden zurückgesetzt, wenn beim Ausfüllen ein PDF hochgeladen wird
+- Unterschrift ist Pflicht, selbst wenn Scan hochgeladen wird.
+- Unterschriften löschen, wenn Template gewechselt wird.
+- Encoding Fehler bei Import/Export
+- TemplateDruck - Linien bei Unterschriftenfeldern vereinheitlichen
+- Template-Module verlieren Einstellungen beim Hinzufügen weiterer Module
+- Fehler bei Anzeige gICS Statistik
+- Importer erzeugt Error im Log
+- Detailansicht: Tabellenspalten zu klein
+- Domain properties werden nicht dargestellt

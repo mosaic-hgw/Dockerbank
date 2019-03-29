@@ -4,7 +4,7 @@ services:
 ### MySQL ###############################################
   mysql:
     image: mysql:5.7
-    container_name: gics-2.8.6-mysql
+    container_name: gics-2.9.1-mysql
     ports:
       - "3306:3306"
     environment:
@@ -19,7 +19,7 @@ services:
 ### WildFly #############################################
   wildfly:
     image: mosaicgreifswald/wildfly:13.0.0.Final-20180830
-    container_name: gics-2.8.6-wildfly
+    container_name: gics-2.9.1-wildfly
     links:
       - "mysql:mysqldb"
     ports:

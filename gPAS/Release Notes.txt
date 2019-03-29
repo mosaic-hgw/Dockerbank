@@ -1,0 +1,14 @@
+--------------------------
+Release Notes gPAS v.1.8.1
+--------------------------
+
+Date: 2019-03-28
+
+New Features:
+- Demo Nutzungshinweis
+
+Improved Features:
+
+- Loglevel in CLI auf Debug anheben
+- Logo aktualisieren
+- Import von CSV mit teilenweise fehlenden Spalten ermöglichen

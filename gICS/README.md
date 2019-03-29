@@ -1,6 +1,6 @@
 ![context](https://user-images.githubusercontent.com/12081369/49164555-a27e5180-f32f-11e8-8725-7b97e35134b5.png)
 
-Current Version: 2.8.6
+Current Version: 2.9.1 (March 2019)
 
 # About #
 
@@ -70,7 +70,12 @@ Use SOAP-UI to create sample requests. The WSDL URL is ``http://<YOUR IPADDRESS>
 
 
 # Read our publications for additional details #
-Bialke M*, Bahls T*, Geidel L, Rau H, Blumentritt A, Pasewald S , et al.
-MAGIC: once upon a time in consent management-a FHIR tale.
-Journal of Translational Medicine. (open access) 2018; 16(1):256.
+
 https://rdcu.be/6LJd 
+
+http://dx.doi.org/10.3414/ME14-01-0133
+
+http://dx.doi.org/10.1186/s12967-015-0545-6
+
+# More Information
+Visit ths-greifswald.de/gics
