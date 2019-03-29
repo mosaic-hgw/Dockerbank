@@ -20,6 +20,9 @@ Please cite our publications:
 https://dx.doi.org/10.3414/ME14-01-0133
 https://dx.doi.org/10.1186/s12967-015-0545-6
 
+# More Information
+Visit [our website ths-greifswald.de](ths-greifswald.de/epix "E-PIX Website")
+
 # Download and run your Image #
 
 Note: your account needs administrative privileges to use docker
@@ -62,14 +65,6 @@ open browser and try out the E-PIX from http://YOURIPADDRESS:8080/epix-web
 
 finish and close E-PIX application server with CTRL+C
 
-# More Information
-Concept and implementation: l.geidel, web client: a.blumentritt, m.bialke
-
-
-Please cite our publications: 
-http://dx.doi.org/10.3414/ME14-01-0133, 
-http://dx.doi.org/10.1186/s12967-015-0545-6
-
 # Web-based Interface
 All functionalities of the E-PIX are provided for external use via a SOAP-Interface.
 
@@ -79,5 +74,16 @@ Use SOAP-UI to create sample requests. The WSDL URL is ``http://<YOUR IPADDRESS>
 
 (Please modify IP Address and Port accordingly).
 
-# More Information
-Visit ths-greifswald.de/epix
+# Additional Screenshots
+
+Record Linkage
+
+![context](https://raw.githubusercontent.com/mosaic-hgw/Dockerbank/master/E-PIX/screenshots/E-PIX-Screenshot-Dublettenaufl%C3%B6sung.png)
+
+Processing of Lists
+
+![context](https://raw.githubusercontent.com/mosaic-hgw/Dockerbank/master/E-PIX/screenshots/E-PIX-Screenshot-Listenverarbeitung.png)
+
+Adding Patients
+
+![context](https://raw.githubusercontent.com/mosaic-hgw/Dockerbank/master/E-PIX/screenshots/E-PIX-Screenshot-Personen-erfassen.png)
