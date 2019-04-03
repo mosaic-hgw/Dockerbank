@@ -21,7 +21,7 @@ https://dx.doi.org/10.3414/ME14-01-0133
 https://dx.doi.org/10.1186/s12967-015-0545-6
 
 # More Information
-Visit [our website ths-greifswald.de](ths-greifswald.de/epix "E-PIX Website")
+Visit [our website ths-greifswald.de](https://www.ths-greifswald.de/epix "E-PIX Website")
 
 # Download and run your Image #
 
