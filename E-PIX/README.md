@@ -2,7 +2,7 @@
 
 Current Version: 2.9.0 (March 2019)
 
-The ID Management solution E-PIX (Enterprise Identifier Cross Referencing) applies the Fellegi-Sunter-algorithm and the Levenshtein distance to avoid duplicate participant entries. The independent software module facilitates participant management and multisite-aggregation of medical research data. Additionally, the correction of potential synonym errors is supported (i.e. false-negative record linkage).
+The Record Linkage and ID Management solution E-PIX (Enterprise Identifier Cross Referencing) applies the Fellegi-Sunter-algorithm and the Levenshtein distance to avoid duplicate participant entries. The independent software module facilitates participant management and multisite-aggregation of medical research data. Additionally, the correction of potential synonym errors is supported (i.e. false-negative record linkage).
 
 # Additional Information #
 License: AGPLv3, https://www.gnu.org/licenses/agpl-3.0.en.html
@@ -66,11 +66,13 @@ open browser and try out the E-PIX from http://YOURIPADDRESS:8080/epix-web
 finish and close E-PIX application server with CTRL+C
 
 # Web-based Interface
-All functionalities of the E-PIX are provided for external use via a SOAP-Interface.
+All functionalities of the E-PIX are provided for external use via a SOAP-Interface. Use SOAP-UI to create sample requests.
 
-[E-PIX Service Interface-Description (JavaDoc)](https://www.ths-greifswald.de/wp-content/uploads/tools/e-pix/doc/2-4-0/org/emau/icmvc/ganimed/epix/service/EPIXService.html "E-PIX Service Interface Description")
+Record Linkage and ID administration
+[JavaDoc](https://www.ths-greifswald.de/wp-content/uploads/tools/e-pix/doc/2-9-0/index.html?org/emau/icmvc/ttp/epix/service/EPIXService.html "JavaDoc") and WSDL URL: ``http://<YOUR IPADDRESS>:8080/epix/epixService?wsdl``
 
-Use SOAP-UI to create sample requests. The WSDL URL is ``http://<YOUR IPADDRESS>:8080/epix/EPIXServiceBean?wsdl``
+Configuration and domain management
+[JavaDoc](https://www.ths-greifswald.de/wp-content/uploads/tools/e-pix/doc/2-9-0/index.html?org/emau/icmvc/ttp/epix/service/EPIXManagementService.html "JavaDoc") and WSDL URL: ``http://<YOUR IPADDRESS>:8080/epix/epixManagementService?wsdl``
 
 (Please modify IP Address and Port accordingly).
 
