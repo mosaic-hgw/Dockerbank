@@ -68,15 +68,14 @@ finish and close E-PIX application server with CTRL+C
 # Web-based Interface
 All functionalities of the E-PIX are provided for external use via a SOAP-Interface. Use SOAP-UI to create sample requests.
 
-## Record Linkage and ID administration
+## Documentation
+[JavaDoc](https://www.ths-greifswald.de/e-pix/doc "Java Documentation of the interfaces")
 
-[JavaDoc](https://www.ths-greifswald.de/wp-content/uploads/tools/e-pix/doc/2-9-0/index.html?org/emau/icmvc/ttp/epix/service/EPIXService.html "JavaDoc")
+## WSDLs
 
-WSDL URL: ``http://<YOUR IPADDRESS>:8080/epix/epixService?wsdl``
+Record Linkage and ID administration: ``http://<YOUR IPADDRESS>:8080/epix/epixService?wsdl``
 
-## Configuration and domain management
-
-[JavaDoc](https://www.ths-greifswald.de/wp-content/uploads/tools/e-pix/doc/2-9-0/index.html?org/emau/icmvc/ttp/epix/service/EPIXManagementService.html "JavaDoc") and WSDL URL: ``http://<YOUR IPADDRESS>:8080/epix/epixManagementService?wsdl``
+Configuration and domain management: ``http://<YOUR IPADDRESS>:8080/epix/epixManagementService?wsdl``
 
 (Please modify IP Address and Port accordingly).
 
