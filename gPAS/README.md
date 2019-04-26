@@ -71,16 +71,18 @@ open browser and try out the gPAS from http://YOURIPADDRESS:8080/gpas-web
 finish and close gPAS application server with CTRL+C
 
 # Web-based Interface
-All functionalities of the gPAS are provided for external use via a SOAP-Interface. Use SOAP-UI to create sample requests. (Please modify IP Address and Port accordingly).
+All functionalities of the gPAS are provided for external use via a SOAP-Interface. Use SOAP-UI to create sample requests.
 
-[gPAS DomainManager Interface-Description (JavaDoc)](https://www.ths-greifswald.de/wp-content/uploads/tools/gpas/doc/1-7-10/org/emau/icmvc/ganimed/ttp/psn/DomainManager.html  "gPAS Domainmanager Service Interface Description")
+## Documentation
+[JavaDoc](https://www.ths-greifswald.de/gpas/doc "Java Documentation of the interfaces")
 
-The WSDL URL is ``http://<YOUR IPADDRESS>:8080/gpas/DomainService?wsdl``
+## WSDLs
 
-[gPAS PSNManager Service Interface-Description (JavaDoc)](https://www.ths-greifswald.de/wp-content/uploads/tools/gpas/doc/1-7-10/org/emau/icmvc/ganimed/ttp/psn/PSNManager.html "gPAS PSNManager Service Interface Description")
+Domainmanager: ``http://<YOUR IPADDRESS>:8080/gpas/DomainService?wsdl``
 
- The WSDL URL is ``http://<YOUR IPADDRESS>:8080/gpas/gpasService?wsdl``
+PSN Manager: ``http://<YOUR IPADDRESS>:8080/gpas/gpasService?wsdl``
 
+(Please modify IP Address and Port accordingly).
 
 # More Information
 Visit ths-greifswald.de/gpas
