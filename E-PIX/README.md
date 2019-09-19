@@ -1,8 +1,8 @@
 ![context](https://user-images.githubusercontent.com/12081369/49164561-a4481500-f32f-11e8-9f0d-fa7a730f4b9d.png)
 
-Current Version: 2.9.0 (March 2019)
+Current Version: 2.9.2 (September 2019)
 
-The Record Linkage and ID Management solution E-PIX (Enterprise Identifier Cross Referencing) applies the Fellegi-Sunter-algorithm and the Levenshtein distance to avoid duplicate participant entries. The independent software module facilitates participant management and multisite-aggregation of medical research data. Additionally, the correction of potential synonym errors is supported (i.e. false-negative record linkage).
+The Record Linkage and ID Management solution E-PIX (Enterprise Identifier Cross Referencing) applies the propabilistic Fellegi-Sunter-algorithm and the Levenshtein distance to avoid duplicate participant entries. The independent software module facilitates participant management and multisite-aggregation of medical research data. Additionally, the correction of potential synonym errors is supported (i.e. false-negative record linkage).
 
 # Additional Information #
 License: AGPLv3, https://www.gnu.org/licenses/agpl-3.0.en.html
@@ -69,7 +69,7 @@ finish and close E-PIX application server with CTRL+C
 All functionalities of the E-PIX are provided for external use via a SOAP-Interface. Use SOAP-UI to create sample requests.
 
 ## Documentation
-[JavaDoc](https://www.ths-greifswald.de/e-pix/doc "Java Documentation of the interfaces")
+[JavaDoc](https://www.ths-greifswald.de/spezifikationen/soap/epix "Java Documentation of the interfaces")
 
 ## WSDLs
 

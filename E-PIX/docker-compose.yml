@@ -5,7 +5,7 @@ services:
 
   mysql:
     image: mysql:5.7
-    container_name: epix-2.9.0-mysql
+    container_name: epix-2.9.2-mysql
     ports:
       - "3306:3306"
     environment:
@@ -15,19 +15,20 @@ services:
     labels:
       - "service-name:epix"
       - "service-type:db-srv"
-      - "environment:test"
+      - "environment:test"    
       
 ### WildFly #############################################
   wildfly:
     image: mosaicgreifswald/wildfly:13.0.0.Final-20180830
-    container_name: epix-2.9.0-wildfly
+    container_name: epix-2.9.2-wildfly
     links:
       - "mysql:mysqldb"
     ports:
       - "8080:8080"
       - "9990:9990"
     environment:
-      WILDFLY_PASS: wildfly_2018
+      WILDFLY_PASS: wildfly_2018      
+      JAVA_OPTS: '-server -Xms512M -Xmx4G -XX:MetaspaceSize=256M -XX:MaxMetaspaceSize=512M -XX:StringTableSize=1000003 -Djava.net.preferIPv4Stack=true -Djava.awt.headless=true -Djboss.modules.system.pkgs=org.jboss.byteman'
     depends_on:
       - mysql
     volumes:
