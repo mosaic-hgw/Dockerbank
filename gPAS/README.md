@@ -57,6 +57,8 @@ check docker-compose version (required 1.8.0 or above)
 
 ```sudo docker-compose -v```
 
+Note: The default publishing port of the application server is 8080. Modify if necessary in jboss/wsdl.cli
+
 run docker-compose to pull and configure gPAS
 
 ```sudo docker-compose up```

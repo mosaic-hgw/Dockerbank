@@ -1,0 +1,11 @@
+# Set wsdl address to use incoming request address
+/subsystem=webservices:write-attribute(name=wsdl-host, value=jbossws.undefined.host)
+
+# Set scheme to https (optional)
+# /subsystem=webservices:write-attribute(name=wsdl-uri-scheme, value=https)
+
+# Set port for http scheme (optional)
+# /subsystem=webservices:write-attribute(name=wsdl-port, value=8080)
+
+# Set port for https scheme (optional)
+# /subsystem=webservices:write-attribute(name=wsdl-secure-port, value=8443)
