@@ -1,7 +1,7 @@
 
 ![context](https://user-images.githubusercontent.com/12081369/49164566-a5794200-f32f-11e8-8d3a-96244ea00832.png)
 
-Current Version: 1.8.1 (March 2019)
+Current Version: 1.9.0 (November 2019)
 
 # About the gPAS #
 The use of pseudonyms is a privacy-enhancing technique supporting privacy-by-design and ensuring non-attribution. Pseudonymisation allows storing directly person identifying data separately and securely from medical data and supports the data controller to meet the GDPR’s data security requirements (Art. 32 lit. 1 EU GDPR).
@@ -14,8 +14,8 @@ The use of pseudonymization domains, the specification of individual alphabets a
 
 # Additional Information #
 License: AGPLv3, https://www.gnu.org/licenses/agpl-3.0.en.html
-Copyright: 2014 - 2019 The MOSAIC Project - Institut für Community Medicine
-Contact: mosaic-projekt@uni-greifswald.de
+Copyright: 2014 - 2019 Trusted Third Party of the University Medicine Greifswald
+Contact: https://www.ths-greifswald.de/kontakt/
 
 Concept and implementation: L. Geidel
 Web-Client: A. Blumentritt

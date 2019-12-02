@@ -1,14 +1,29 @@
 --------------------------
-Release Notes gPAS v.1.8.1
+Release Notes gPAS v.1.9.0
 --------------------------
 
-Date: 2019-03-28
+Datum: 2019-11-29
 
-New Features:
-- Demo Nutzungshinweis
-
-Improved Features:
-
-- Loglevel in CLI auf Debug anheben
-- Logo aktualisieren
-- Import von CSV mit teilenweise fehlenden Spalten erm�glichen
+Neue Funktionen
+    Angabe von frei definierbaren Alphabeten in der Domänenkonfigurationsoberfläche
+    Export von Pseudonymen
+    Löschen von Pseudonymen via CSV Import
+    Suchen von Pseudonymen über alle Domänen
+Verbesserungen
+    Schnelles Pseudonymisieren via Rechtsklick
+    Fortschrittsbalken bei Listenverarbeitung
+    Kompatibilität mit Java 9+
+    Anzeige von Warnungen statt Fehlern bei Fehleingaben des Nutzers
+    Schließen von Dialogen mit ESC Taste
+    Automatischer Fokus für erstes Eingabefelde in Dialogen/Formularen
+    Detailoptimierungen im Webfrontend
+    Suche nach Zieldomäne beim Import
+    Vereinheitlichung der Dateinamen beim Export in allen THS Tools
+    Änderung des Standard-Separator beim Import auf ;
+    Änderung des Encoding beim Export in UTF-16LE
+    Automatische Erkennung des Encodings beim Import
+Fehlerbehebungen
+    Mögliche NPE bei Komma im Pseudonym oder Domänennamen
+    Falsche Fehlermeldung bei Eingabe eines bereits vorhandenen Pseudonyms
+    Fehlerhafte Darstellung von Umlauten im Inhalt und Dateinamen von Uploads
+    Langsames Filtern bei großen PSN Domänen

@@ -34,7 +34,7 @@ DEFAULT CHARACTER SET = utf8;
 CREATE  TABLE IF NOT EXISTS `stat_value` (
   `stat_value_id` BIGINT(20) NULL DEFAULT NULL,
   `stat_value` VARCHAR(255) NULL DEFAULT NULL,
-  `stat_attr` VARCHAR(50) NULL DEFAULT NULL,
+  `stat_attr` VARCHAR(255) NULL DEFAULT NULL,
   INDEX `FK_stat_value_stat_value_id` (`stat_value_id` ASC),
   CONSTRAINT `FK_stat_value_stat_value_id`
     FOREIGN KEY (`stat_value_id` )
