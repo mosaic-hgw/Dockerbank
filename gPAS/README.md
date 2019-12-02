@@ -76,7 +76,7 @@ finish and close gPAS application server with CTRL+C
 All functionalities of the gPAS are provided for external use via a SOAP-Interface. Use SOAP-UI to create sample requests.
 
 ## Documentation
-[JavaDoc](https://www.ths-greifswald.de/gpas/doc "Java Documentation of the interfaces")
+[JavaDoc](https://www.ths-greifswald.de/spezifikationen/soap/gpas "Java Documentation of the interfaces")
 
 ## WSDLs
 
