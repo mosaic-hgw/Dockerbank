@@ -1,6 +1,6 @@
 ![context](https://user-images.githubusercontent.com/12081369/49164555-a27e5180-f32f-11e8-8725-7b97e35134b5.png)
 
-Current Version: 2.9.1 (March 2019)
+Current Version: 2.10.0 (December 2019)
 
 # About #
 
@@ -65,7 +65,7 @@ finish and close gICS application server with CTRL+C
 All functionalities of the gICS are provided for external use via a SOAP-Interface. Use SOAP-UI to create sample requests.
 
 ## Documentation
-[JavaDoc](https://www.ths-greifswald.de/gics/doc "Java Documentation of the interfaces")
+[JavaDoc](https://www.ths-greifswald.de/gics/doc/2-10-0 "Java Documentation of the interfaces")
 
 ## WSDLs
 
@@ -83,4 +83,4 @@ http://dx.doi.org/10.3414/ME14-01-0133
 http://dx.doi.org/10.1186/s12967-015-0545-6
 
 # More Information
-Visit ths-greifswald.de/gics
+Visit ths-greifswald.de/gics or check out the live demo from https://www.ths-greifswald.de/gics/demo
